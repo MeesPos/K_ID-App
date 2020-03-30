@@ -1,0 +1,104 @@
+html, body {
+    margin: 0; 
+    height: 100%; 
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+body{
+    position: relative;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    text-align: center;
+    background-color: #00D3FF;
+    height: 43.8vh;
+    width: 200vw;
+    margin-left: -50vw;
+    margin-top: -25vh;
+    position: absolute;
+    border-radius: 0 0 60% 60%;
+}
+.headertext{
+    margin-top: 27vh;
+}
+.headertext a{
+    margin-right: 80vw;
+    padding-top: 5vh;
+    font-size: 40px;
+    color: white;
+}
+.headertext h1{
+    margin-top: 5vh;
+    color: white;
+}
+.formulier{
+    margin-top: 25vh;
+    text-align: center;
+}
+.formulier h2{
+    text-align: center;
+    opacity: 45%;
+    font-size: 20px;
+    margin-bottom: 6vh;
+}
+.form-item{
+    border: none;
+    border-bottom: 1px solid #707070;
+    width: 287px;
+}
+input[type=submit]{
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    background-color: #C11010;
+    opacity: 55%;
+    width: 212px;
+    height: 51px;
+    border: none;
+    margin-top: 5vh;
+}
+.wachtverg{
+    font-size: 17px!important;
+    opacity: 45%;
+    margin-top: 2vh;
+}
+.icon, .icon2{
+    color: #C11010;
+    opacity: 55%;
+    font-size: 18px;
+    margin-left: -6vw;
+    margin-top: 2vh;
+    position: absolute;
+}
+.icon2{
+    margin-left: 1vw;
+}
+.ruimte{
+    margin-bottom: 8vh;
+}
+.text{
+    color: #000000;
+    opacity: 52%;
+    font-weight: bold;
+    margin-left: 40vw;
+    float: right!important;
+    margin-right: 12vw;
+}
+.icon3{
+    margin-left: 70vw;
+    margin-top: 0vh;
+}
+footer{
+    text-align: center;
+    background-color: #00D3FF;
+    height: 43.8vh;
+    width: 200vw;
+    margin-left: -50vw;
+    margin-top: 19vh;
+    position: absolute;
+    border-radius: 60% 60% 0 0;
+}
