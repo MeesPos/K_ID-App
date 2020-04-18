@@ -1,0 +1,109 @@
+html, body {
+    margin: 0; 
+    height: 100%; 
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+body{
+    position: relative;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.weekoverzicht{
+    margin-bottom: -2vh;
+}
+header{
+    text-align: center;
+    background-color: #00D3FF;
+    height: 43.8vh;
+    width: 200vw;
+    margin-left: -50vw;
+    margin-top: -25vh;
+    position: absolute;
+    border-radius: 0 0 60% 60%;
+}
+.headertext{
+    margin-top: 27vh;
+}
+.headertext h1{
+    margin-top: 5vh;
+    color: white;
+}
+footer{
+    text-align: center;
+    background-color: #00D3FF;
+    height: 43.8vh;
+    width: 200vw;
+    margin-left: -50vw;
+    margin-top: 3vh;
+    position: absolute;
+    border-radius: 60% 60% 0 0;
+}
+.paginatie{
+    display: inline-block;
+    margin-top: 6vh;
+}
+.paginatie a{
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+    margin-left: 2.5vw;
+    background-color: blue;
+    border-radius: 50%;
+    padding: 3px 10px 3px 10px;
+}
+.fas{
+    transform: rotate(90deg);
+    margin-left: 10px;
+}
+.weekoverzichttext{
+    margin-top: 25vh;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    text-decoration: none;
+}
+.taak{
+    margin-top: 22vh;
+    color: black;
+    width: 80vw;
+    margin-left: 8vw;
+    height: 7vh;
+    background-color: white;
+    -webkit-box-shadow: 0 3px 6px rgba(0,0,0,.2);
+    box-shadow: 0 3px 6px rgba(0,0,0,.2);
+    border-radius: 20px;
+    padding: 2vw;
+}
+.taakinfo{
+    margin-left: 12vw;
+    margin-top: -7.5vh;
+}
+.lijn{
+    width: 10vw;
+    height: 9vh;
+    margin-top: -1vh;
+    margin-left: -6vw;
+}
+.groen{
+    border-right: greenyellow solid 7px;
+}
+.rood{
+    border-right: red solid 7px;
+}
+.t2, .t3, .t4, .t5{
+    margin-top: 3.5vh;
+}
+.plusje{
+    font-size: 60px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #00D3FF;
+    width: 20vw;
+    border-radius: 50%;
+    color: white;
+    margin-top: 2vh;
+}
