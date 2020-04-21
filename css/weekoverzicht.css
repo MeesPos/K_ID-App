@@ -60,7 +60,7 @@ footer{
     color: black;
     width: 80vw;
     margin-left: 8vw;
-    height: 7vh;
+    height: 4vh;
     background-color: white;
     -webkit-box-shadow: 0 3px 6px rgba(0,0,0,.2);
     box-shadow: 0 3px 6px rgba(0,0,0,.2);
@@ -69,11 +69,20 @@ footer{
 }
 .taakinfo{
     margin-left: 12vw;
-    margin-top: -7.5vh;
+    margin-top: -5vh;
+}
+.taakinfo h3{
+    float: right;
+    margin-top: -3.4vh;
+    margin-right: 5vw;
+    background-color: blue;
+    padding: 4px 10px 4px 10px;
+    border-radius: 50%;
+    color: white;
 }
 .lijn{
     width: 10vw;
-    height: 9vh;
+    height: 5.9vh;
     margin-top: -1vh;
     margin-left: -6vw;
 }
@@ -83,7 +92,7 @@ footer{
 .rood{
     border-right: red solid 7px;
 }
-.t2, .t3, .t4, .t5{
+.t2, .t3, .t4, .t5, .t6, .t7{
     margin-top: 3.5vh;
 }
 .plusje{

@@ -13,7 +13,8 @@
     <header>
         <div class="headertext">
             <div class="weekoverzicht">
-                <a href="./weekoverzicht.html" class="weekoverzichttext">Weekoverzicht<i class="fas fa-arrow-up"></i></a>
+                <a href="./weekoverzicht.html" class="weekoverzichttext">Weekoverzicht<i
+                        class="fas fa-arrow-up"></i></a>
             </div>
             <div class="paginatie">
                 <a href="">1</a>
@@ -27,20 +28,22 @@
         </div>
     </header>
     <div class="taken">
-        <div class="taak">
+        <div class="taak" id="myBtn">
             <div class="lijn groen"></div>
             <div class="taakinfo">
                 <h2>Wakker worden!</h2>
                 <p>08:00 - 08:10</p>
             </div>
         </div>
-        <div class="taak t2">
-            <div class="lijn groen"></div>
-            <div class="taakinfo">
-                <h2>Tanden poetsen</h2>
-                <p>08:10 - 08:15</p>
+        <a href="tandenpoetsen.html" style="text-decoration: none;">
+            <div class="taak t2">
+                <div class="lijn rood"></div>
+                <div class="taakinfo">
+                    <h2>Tanden poetsen</h2>
+                    <p>08:10 - 08:15</p>
+                </div>
             </div>
-        </div>
+        </a>
         <div class="taak t3">
             <div class="lijn rood"></div>
             <div class="taakinfo">
@@ -68,6 +71,38 @@
         <h2 class="plusje">+</h2>
     </div>
 
+    <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Wakker worden!</h2>
+            <p>08:00 - 08:10</p>
+            <p>Word wakker, ogen je open en blijf even liggen (1-4 minuten) om goed wakker te worden. Stap daarna
+                uit bed en maak jek laar om je tanden te gaan poetsen en te gaan douchten.</p>
+        </div>
+
+    </div>
 
     <footer></footer>
+
+    <script>
+        let modal = document.getElementById("myModal");
+        let btn = document.getElementById("myBtn");
+        let span = document.getElementsByClassName("close")[0];
+
+
+        btn.onclick = function () {
+            modal.style.display = "block";
+        }
+        span.onclick = function () {
+            modal.style.display = "none";
+        }
+
+        window.onclick = function (event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+    </script>
 </body>
